@@ -1,9 +1,9 @@
 import axios from "axios";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Songs.css";
 import { MdChevronLeft, MdOutlineChevronRight } from "react-icons/md";
 import Slider from "react-slick";
-import Card from "../card/Card";
+
 import { formatNumber } from "../../utils/FormatNumber";
 
 const categories = [

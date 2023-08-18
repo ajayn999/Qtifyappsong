@@ -53,7 +53,7 @@ const Faqs = () => {
                 <p className="accordian_title">{data.title}</p>
 
                 <div>
-                  {clicked == data.id ? (
+                  {clicked === data.id ? (
                     <FiChevronUp className="icon" />
                   ) : (
                     <FiChevronDown className="icon" />
