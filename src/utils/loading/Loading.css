@@ -1,0 +1,11 @@
+.loding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
